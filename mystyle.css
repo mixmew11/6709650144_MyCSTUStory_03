@@ -1,0 +1,121 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMjg3ODk1LWltYWdlLWpvYjY1NF8yLmpwZw.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: black;
+        
+    }
+
+    header{
+        background-color: rgb(83, 29, 29);
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    header h1{
+        font-size: 3.0em;
+        margin: 0;
+    }
+
+    header p{
+        font-size: 1em;
+        margin: 1px;
+    }
+
+    nav {
+        padding: 15px;
+        background-color: rgb(87, 75, 75);
+        padding: 15px;
+        border: 0.5px solid black;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.1em;
+        transition: color 0.5s ease;
+    }
+    
+    nav ul li a:hover {
+        color: white
+    }
+
+    main {
+        padding: 20px;
+    }
+    
+   
+    .info-myself {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 40px;
+        padding: 20px;
+        overflow: auto;
+        display: flex;
+    }
+
+    
+
+    .flex-container {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        padding: 20px;
+        display: flex;
+        width: auto;
+      
+    }
+
+    .info-myself2 {
+        padding-left: 0%;
+        float: left;
+       
+    }
+
+
+    .info-myself2 ul{
+        list-style-type: none;
+        padding-left: 0%;
+        line-height: 2.0;
+        
+    }
+
+    .profile {
+        padding-left: 50%;
+        margin-left: 20px;
+        width: 48%;
+    }
+
+    .profile4 {
+        padding-left: 50%;
+        margin-left: 20px;
+        width: 50%;
+        height: auto;
+    }
+
+    #vid1 {
+        padding-left: 50%;
+        margin-left: 20px;
+        width: 48%;
+        
+    }
+
+    
