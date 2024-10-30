@@ -64,18 +64,17 @@ main {
     margin-bottom: 40px;
     padding: 20px;
     display: flex;
-    justify-content: space-between; /* จัดให้อยู่ด้านข้าง */
-    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวตั้ง */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .profile-container {
-    margin-left: auto; /* ดันรูปภาพไปทางขวา */
+    margin-left: auto; 
 }
 
 .flex-container {
-    display: flex; /* ใช้ flexbox ใน container */
-    justify-content: space-between; /* จัดให้อยู่ด้านข้าง */
-    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวตั้ง */
+    display: flex; 
+    justify-content: space-between; 
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -94,25 +93,85 @@ main {
 }
 
 .Profile {
-    width: 100%; /* ทำให้รูปภาพ responsive */
-    max-width: 400px; /* จำกัดขนาดสูงสุด */
-    height: auto; /* รักษาสัดส่วน */
-    margin-left: 20px; /* เพิ่มระยะห่างระหว่างรูปภาพกับข้อความ */
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    margin-left: 20px; 
 }
 
 
 
 #vid1 {
-    width: 100%; /* ทำให้วิดีโอ responsive */
-    max-width: 400px; /* จำกัดขนาดสูงสุด */
-    height: auto; /* รักษาสัดส่วน */
-    margin-left: 20px; /* เพิ่มระยะห่างระหว่างวิดีโอกับข้อความ */
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    margin-left: 20px; 
 }
 
 .Profile4 {
-    width: 100%; /* ทำให้รูปภาพ responsive */
-    max-width: 400px; /* จำกัดขนาดสูงสุด */
-    height: auto; /* รักษาสัดส่วน */
-    margin-left: 20px; /* เพิ่มระยะห่างระหว่างรูปภาพกับข้อความ */
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    margin-left: 20px; 
 }
 
+/* mobile */
+@media (max-width: 767px) {
+    header h1 {
+      font-size: 2.0em;
+    }
+  
+    header p {
+      font-size: 0.8em;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .info-myself {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .info-myself2 ul {
+      padding-right: 0;
+    }
+  
+    .Profile, #vid1 {
+      max-width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
+  /*  tablets */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    header h1 {
+      font-size: 2.5em;
+    }
+  
+    header p {
+      font-size: 0.9em;
+    }
+  
+    .Profile, #vid1 {
+      max-width: 300px;
+    }
+  }
+  
+  /*  desktops */
+  @media (min-width: 1024px) {
+    header h1 {
+      font-size: 3.0em;
+    }
+  
+    header p {
+      font-size: 1em;
+    }
+  
+    .Profile, #vid1 {
+      max-width: 400px;
+    }
+  }
